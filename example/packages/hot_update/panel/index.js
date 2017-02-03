@@ -7,13 +7,12 @@ var crypto  = require('crypto');
 
 require(path.join(Editor.projectInfo.path, 'packages/hot_update/panel/copy.js'));   
 
-// http://slots.cdn.dolphin-game.com/update/    http://172.18.254.56:8080/update/
 
 // 版本配置
 var config = {
     "isUpdateVersion" : true,
     "line"            : "line1",                             // 版本线路文件夹，用于更新时优先更新没有用的线路，测试成功后切换热更
-    "server"          : "http://slots.cdn.dolphin-game.com/update/",
+    "server"          : "http://172.18.254.56:8080/update/",
     "modules": {
         "common" : {
             initial : "1.0.0.0015",                          // 发安装包时，initial 值和 initial 的值保持一致
