@@ -1,0 +1,16 @@
+{
+  "name": "hot_update",
+  "main": "main.js",
+  "main-menu": {
+    "自定义工具/热更配置生成": {
+      "message": "hot_update:open"
+    }
+  },
+  "panel": {
+    "main"  : "panel/index.js",
+    "type"  : "dockable",
+    "title" : "热更配置生成",
+    "width" : 400,
+    "height": 300
+  }
+}
