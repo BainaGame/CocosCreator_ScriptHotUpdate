@@ -17,3 +17,6 @@
 # 其它说明
 1. 热更脚本代码在assets/script文件下AssetsManager.js、AssetsDownload.js两个文件，代码上注释比较全
 2. 热更工具代码在packages/hot_update文件下
+
+# 联系方式
+gdong@bainainfo.com
