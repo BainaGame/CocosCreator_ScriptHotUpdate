@@ -5,7 +5,7 @@
  */
 /** 外网测试服 */
 var debug_extranet = {
-    gateSocketIp    : "121.41.4.17",                    // 网关地址
+    gateSocketIp    : "192.168.1.1",                    // 网关地址
     gateSocketPort  : 3101,                             // 网关端口
 
     useSSL          : false,                            // 是否使用https
@@ -14,3 +14,5 @@ var debug_extranet = {
 
 window.game = window.game || {};
 game.config = module.exports = debug_extranet; 
+
+require("HttpRequest");
